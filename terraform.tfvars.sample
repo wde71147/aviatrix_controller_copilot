@@ -1,0 +1,15 @@
+admin_email         = ""
+admin_password      = ""
+access_account_name = ""
+aws_access_key      = ""
+aws_secret_key      = ""
+aws_account_id      = ""
+incoming_ssl_cidr   = ["0.0.0.0/32"]
+create_iam_roles    = false
+ec2_role_name       = "aviatrix-role-ec2"
+app_role_name       = "aviatrix-role-app"
+controller_name     = "AviatrixController"
+copilot_name        = "AviatrixCoPilot"
+keypair             = "controller_keypair"
+create_alb          = false
+certificate_arn     = "arn:aws:acm:us-west-2:111111111111:certificate/11111111-2222-3333-4444-555555555555"
